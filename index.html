@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Simple Sound System</title>
+		<link href="stylesheet.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+		<large>Simple Sound System</large><br>
+		<small>Amazing alliteration, right?</small><br>
+
+		<p>
+			The Simple Sound System is a Processing library that allows you to make sound sample by sample.
+			It is easy to use and open source on github(<a href="https://github.com/Nikos1001/simple-sound-system">https://github.com/Nikos1001/simple-sound-system</a>).
+		</p>
+
+		<medium>
+			Basic Usage
+		</medium>
+
+		<p class="code">
+			import simple_sound_system.main.*; // Import the library<br>
+			<br>
+			// To use the Simple Sound System, you need to create a class<br>
+			// that implements the SoundGenerator interface.<br>
+			class AudioGenerator implements SoundGenerator {<br>
+				<br>
+			<tab></tab>// This function generates the samples.<br>
+			<tab></tab>// Time is measured in samples(1/44100s of a second)<br>
+			<tab></tab>// The function should return a float between 0 and 1<br>
+			<tab></tab>float generateSample(int time) {<br>
+			<tab></tab><tab></tab>float val = 0;<br>
+			<tab></tab><tab></tab>return val;<br>
+			<tab></tab>}<br>
+<br>
+			}<br>
+<br>
+			void setup() {<br>
+			<tab></tab>// The soundmaker object is a wrapper around an audio thread class<br>
+			<tab></tab>// It takes an object that implements SoundGenerator as a parameter<br>
+			<tab></tab>SoundMaker soundMaker = new SoundMaker(this, new AudioGenerator());<br>
+<br>
+			<tab></tab>// The SoundMaker's begin method starts the thread.<br>
+			<tab></tab>soundMaker.begin();<br>
+			}<br>
+<br>
+			void draw() {<br>
+<br>
+			}<br>
+		</p>
+	</body>
+</html>
