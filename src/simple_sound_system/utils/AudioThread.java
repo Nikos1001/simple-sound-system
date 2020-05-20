@@ -12,12 +12,6 @@ import static org.lwjgl.openal.ALC10.*;
 import java.util.function.Supplier;
 
 
-/*
- * To be honest, I don't know what this code means.
- * I just shamelessly copied it from a tutorial
- * Hopefully nobody will ever read this. Cuz this is a mess.
- */
-
 
 public class AudioThread extends Thread {
 	
