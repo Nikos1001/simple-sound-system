@@ -2,5 +2,24 @@
 <classpath>
 	<classpathentry kind="src" output="bin" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/core.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-natives-linux-arm32.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-natives-linux-arm64.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-natives-linux.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-natives-macos.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-natives-windows-x86.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-openal-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-openal-natives-linux-arm32.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-openal-natives-linux-arm64.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-openal-natives-linux.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-openal-natives-macos.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-openal-natives-windows-x86.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-openal-natives-windows.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-openal-sources.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-openal.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl-sources.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl.jar"/>
 	<classpathentry kind="output" path="resources/code"/>
 </classpath>
