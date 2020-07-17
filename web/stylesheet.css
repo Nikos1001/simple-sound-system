@@ -1,0 +1,31 @@
+
+body {
+	margin-left: 2.5%;
+	background-image: url(https://i.pinimg.com/originals/0c/e5/6d/0ce56ddec3eb469a516d68adc4354b63.jpg);
+	color: #2b1e09;
+}
+
+large {
+	font-size: 32px;
+}
+
+small {
+	font-size: 12px;
+}
+
+p {
+	padding-top: 2.5%;
+	width: 50%;
+}
+
+medium {
+	font-size: 24px;
+}
+
+.code {
+	font-family: monospace;
+}
+
+tab {
+	padding-right: 5%;
+}

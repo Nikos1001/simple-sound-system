@@ -29,7 +29,7 @@ public class SoundMaker {
 					short[] s = new short[AudioThread.BUFFER_SIZE];
 					for(int i = 0; i < s.length; i ++) {
 						float val = generator.generateSample(i + time);
-						val = Math.max(0, val);
+						val = Math.max(-1, val);
 						val = Math.min(1, val);
 						s[i] = (short)(Short.MAX_VALUE * val);
 					}
